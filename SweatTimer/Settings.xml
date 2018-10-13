@@ -1,0 +1,59 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>17.0.1f3</Version>
+<Cluster>
+<Name>User Configuration</Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>Hardware Configuration</Name>
+<NumElts>5</NumElts>
+<DAQChannel>
+<Name>Physical Channel</Name>
+<Val>Dev2/ai0:4</Val>
+</DAQChannel>
+<DBL>
+<Name>Maximum Input</Name>
+<Val>1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Minimum Input</Name>
+<Val>-1.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Sample Rate</Name>
+<Val>10000.00000000000000</Val>
+</DBL>
+<I32>
+<Name>Number of Samples</Name>
+<Val>32</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Analysis Configuration</Name>
+<NumElts>1</NumElts>
+<Boolean>
+<Name>Statistics</Name>
+<Val>1</Val>
+</Boolean>
+</Cluster>
+<EW>
+<Name>New Data Behavior</Name>
+<Choice>Replace</Choice>
+<Choice>Overlay</Choice>
+<Choice>Append</Choice>
+<Val>0</Val>
+</EW>
+<Path>
+<Name>Time-Voltage transfer function file path (dialog if empty)</Name>
+<Val>C:\Users\Gamma Matsci\Documents\LabVIEW Data\SweatTimer\lookupTables\Ascending_Time_Voltage_lookup_table_default.txt</Val>
+</Path>
+<DBL>
+<Name>Cell (V) Error Upper</Name>
+<Val>1.00000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>Cell (V) Error Lower (type "-")</Name>
+<Val>-1.00000000000000E-2</Val>
+</DBL>
+</Cluster>
+</LVData>
